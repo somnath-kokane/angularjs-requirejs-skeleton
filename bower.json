@@ -1,0 +1,35 @@
+{
+  "name": "ng-require-skeleton",
+  "version": "0.0.0",
+  "homepage": "https://github.com/somnath-kokane/ng-require-skeleton",
+  "authors": [
+    "Somnath Kokane <in.somnath.kokane@gmail.com>"
+  ],
+  "description": "AngularJS + RequireJS Skeleton for Large Application",
+  "main": "main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Angular.js",
+    "Require.js",
+    "Skeleton",
+    "Large",
+    "Application",
+    "Single",
+    "Page",
+    "Web",
+    "Application"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

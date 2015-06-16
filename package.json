@@ -1,0 +1,29 @@
+{
+  "name": "ng-require-skeleton",
+  "version": "1.0.0",
+  "description": "AngularJS + RequireJS Skeleton for Large Single Page Web Applications",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somnath-kokane/ng-require-skeleton.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "RequireJS",
+    "Skeleton",
+    "Large",
+    "Single",
+    "Page",
+    "Web",
+    "Applications"
+  ],
+  "author": "Somnath Kokane <in.somnath.kokane@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somnath-kokane/ng-require-skeleton/issues"
+  },
+  "homepage": "https://github.com/somnath-kokane/ng-require-skeleton#readme"
+}
