@@ -1,0 +1,16 @@
+<div ng-controller="AppCtrl as app">
+<header>
+    <h2>App Header</h2>
+</header>
+<nav>
+    <ul>
+        <li><a href="#!/">Brand</a></li>
+        <li ng-if="!user.isLoggedIn"><a href="#!/login/">Login</a></li>
+        <li ng-if="user.isLoggedIn"><a href="#!/logout/">Logout</a></li>
+    </ul>
+</nav>
+<main ng-view></main>
+<footer>
+    <p>App Footer</p>
+</footer>
+</div>

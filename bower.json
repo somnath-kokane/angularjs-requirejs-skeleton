@@ -6,7 +6,7 @@
     "Somnath Kokane <in.somnath.kokane@gmail.com>"
   ],
   "description": "AngularJS + RequireJS Skeleton for Large Application",
-  "main": "main.js",
+  "main": "src/main.js",
   "moduleType": [
     "amd"
   ],
@@ -30,6 +30,13 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "angular": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "requirejs-text": "~2.0.14",
+    "requirejs": "~2.1.18"
+  },
+  "install": {
+    "path": "src/vendor"
   }
 }

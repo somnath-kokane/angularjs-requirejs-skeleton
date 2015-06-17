@@ -2,9 +2,12 @@
   "name": "ng-require-skeleton",
   "version": "1.0.0",
   "description": "AngularJS + RequireJS Skeleton for Large Single Page Web Applications",
-  "main": "api/index.js",
+  "main": "src/api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/bower-installer",
+    "prestart": "npm install",
+    "start": "node src/api/server.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/somnath-kokane/ng-require-skeleton/issues"
   },
-  "homepage": "https://github.com/somnath-kokane/ng-require-skeleton#readme"
+  "homepage": "https://github.com/somnath-kokane/ng-require-skeleton#readme",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "bower-installer": "^1.2.0",
+    "express": "^4.12.4"
+  }
 }

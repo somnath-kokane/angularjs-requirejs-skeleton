@@ -2,14 +2,14 @@
  * @Author: somnath
  * @Date:   2015-06-16 17:08:02
  * @Last Modified by:   somnath
- * @Last Modified time: 2015-06-16 20:31:01
+ * @Last Modified time: 2015-06-17 14:45:20
  */
 
 'use strict';
 
 
 (function(factory) {
-
+    console.log('this', this);
     var main = factory();
     var root = this;
     if (typeof exports !== 'undefined') {
@@ -25,7 +25,7 @@
         main.init();
     }
 
-}(function() {
+}.call(this, function() {
     return {
         init: function(){
             requirejs([
@@ -52,6 +52,8 @@
                 'angular': 'vendor/angular/angular',
                 'text': 'vendor/requirejs-text/text',
                 'angular-route': 'vendor/angular-route/angular-route',
+
+                'auth':'app/modules/auth'
             },
             shim: {
                 'angular': {

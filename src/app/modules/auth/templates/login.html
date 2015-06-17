@@ -1,0 +1,21 @@
+<section>
+    <header>
+        <h4>User Login</h4>
+    </header>
+    <article>
+        <form name="loginForm" ng-submit="loginForm.$valid && vm.onSubmit()">
+            <p>
+                <label>UserName</label>
+                <input type="email" name="email" ng-model="vm.login.email" required>
+            </p>
+            <p>
+                <label>Password</label>
+                <input type="password" name="password" ng-model="vm.login.password" required>
+            </p>
+            <p>
+                <button type="submit">Login</button>
+                <a href="#!/">Cancel</a>
+            </p>
+        </form>
+    </article>
+</section>
