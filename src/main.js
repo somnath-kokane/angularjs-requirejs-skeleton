@@ -2,14 +2,13 @@
  * @Author: somnath
  * @Date:   2015-06-16 17:08:02
  * @Last Modified by:   somnath
- * @Last Modified time: 2015-06-17 14:45:20
+ * @Last Modified time: 2015-06-18 17:54:34
  */
 
 'use strict';
 
 
 (function(factory) {
-    console.log('this', this);
     var main = factory();
     var root = this;
     if (typeof exports !== 'undefined') {

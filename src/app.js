@@ -2,15 +2,15 @@
 * @Author: somnath
 * @Date:   2015-06-16 19:52:30
 * @Last Modified by:   somnath
-* @Last Modified time: 2015-06-17 14:46:51
+* @Last Modified time: 2015-06-18 18:01:57
 */
 
 'use strict';
 
 define([
     'app/services/appSvc',
-    'app/controllers/AppCtrl',
-    'app/controllers/HomeCtrl',
+    'app/controllers/appCtrl',
+    'app/controllers/homeCtrl',
     'app/directives/sampleDtve',
     'auth/auth',
     'text!app/templates/shell.html',
