@@ -1,4 +1,4 @@
-# ng-require-skeleton
+# angularjs-requirejs-skeleton
  npm install
 
 # folder structure
