@@ -1,11 +1,11 @@
 {
-  "name": "ng-require-skeleton",
+  "name": "angularjs-requirejs-skeleton",
   "version": "0.0.0",
-  "homepage": "https://github.com/somnath-kokane/ng-require-skeleton",
+  "homepage": "https://github.com/somnath-kokane/angularjs-requirejs-skeleton",
   "authors": [
     "Somnath Kokane <in.somnath.kokane@gmail.com>"
   ],
-  "description": "AngularJS + RequireJS Skeleton for Large Application",
+  "description": "AngularJS + RequireJS Skeleton for Large Single Page Web Applications",
   "main": "src/main.js",
   "moduleType": [
     "amd"
