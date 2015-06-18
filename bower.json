@@ -34,9 +34,16 @@
     "angular": "~1.4.1",
     "angular-route": "~1.4.1",
     "requirejs-text": "~2.0.14",
-    "requirejs": "~2.1.18"
+    "requirejs": "~2.1.18",
+    "almond": "~0.3.1"
   },
   "install": {
     "path": "src/vendor"
+  },
+  "exportsOverride": {
+    "angular": {
+      "/": "angular.js",
+      "../static/vendor": "angular-csp.css"
+    }
   }
 }

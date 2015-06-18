@@ -1,17 +1,16 @@
 {
-  "name": "ng-require-skeleton",
+  "name": "angularjs-requirejs-skeleton",
   "version": "1.0.0",
   "description": "AngularJS + RequireJS Skeleton for Large Single Page Web Applications",
   "main": "src/api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/bower-installer",
     "prestart": "npm install",
     "start": "node src/api/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/somnath-kokane/ng-require-skeleton.git"
+    "url": "git+https://github.com/somnath-kokane/angularjs-requirejs-skeleton.git"
   },
   "keywords": [
     "AngularJS",
@@ -26,12 +25,13 @@
   "author": "Somnath Kokane <in.somnath.kokane@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/somnath-kokane/ng-require-skeleton/issues"
+    "url": "https://github.com/somnath-kokane/angularjs-requirejs-skeleton/issues"
   },
-  "homepage": "https://github.com/somnath-kokane/ng-require-skeleton#readme",
+  "homepage": "https://github.com/somnath-kokane/angularjs-requirejs-skeleton#readme",
   "devDependencies": {
-    "bower": "^1.4.1",
-    "bower-installer": "^1.2.0",
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "grunt": "~0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-requirejs": "^0.4.4"
   }
 }
